@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    /* border: 2px solid black; */
+}
+.from{
+    display: flex;
+}
+.from > form{
+    display: flex;
+    justify-content: center;
+width: 100%;
+
+}
+input {
+    border: 1px solid rgb(219, 211, 211);
+    width: 210px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+a:hover{
+text-decoration-line:underline ;
+}
+#submit{
+    background-color: #1877f2;
+    color: white;
+    width: 65px;
+    padding:10px 0;
+}
+.from >form h3{
+margin-right: auto;
+font-size: 30px;
+margin-left: 20px;
+margin-top: 5px;
+color: #1877f2;
+}
+a{
+    text-decoration: none;
+}
+.from >form div {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+margin-right: 30px;
+margin-left: 9px;
+}
+.from >form >input{
+    padding: 10px;
+    margin:7px 3px;
+    border-radius: 4px;
+}
+ div a{
+      color: #1877f2;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 224, 230, 0.71);
+    align-items: center;
+}
+.container>.article>h3, p{
+    padding-left:20px ;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+#input{
+    font-weight: bolder;
+    font-size:15px;
+    margin-left: 20px;
+    width:90%;  
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+.article{
+    padding-top:10px;
+    background-color: white;
+    width:550px;
+    height:300px;
+    border-radius: 10px;
+    border:2px solid  rgba(217, 224, 230, 0.71);
+}
+.article >form >div {
+    display: flex;
+    justify-content: end;
+}
+hr{
+  margin-top: 20px;
+    border:1px solid  rgba(217, 224, 230, 0.71);
+}
+#reset , #button{
+    font-weight: bolder;
+    font-size:15px;
+    width: 100px;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 13px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+#button{
+    background-color: #1877f2;
+    color: white;
+    margin-left: 10px;
+    margin-right:10px ;
+}
+.article h3{
+    padding:10px 0;
+    font-size:1.4em;
+}
+.article p{
+    margin:20px 0;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+.article >form input:first-child{
+width: 100%;
+padding: 20px;
+border-radius: 5px;
+}

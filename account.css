@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    background-color: rgba(217, 224, 230, 0.71);
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+h1,h3,h4{
+    text-align: center;
+}
+.container2 form > #label{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+}
+.container2 form >.select{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.container2{
+    background-color: rgb(252, 252, 252);
+    border: 2px solid rgb(229, 229, 229);
+    width: 400px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+input , select, .radio> div{
+    border: 1px solid rgba(231, 235, 226, 0.892);
+}
+.container2 form h5{
+font-size: 10px;
+}
+.container2 >form >.span {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+   margin-top: 20px;
+}
+.container2 >form >input:nth-child(2),.container2 >form >input:nth-child(3){
+    display:block ;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.container2 >form >label{
+    display: block;
+    margin-top:14px ;
+}
+form > .select>select {
+    width:120px;
+    padding:8px 0;
+ border-radius: 4px
+}
+.radio1, .radio2, .radio3{
+    box-sizing: border-box;
+    border: 1px solid black;
+width:120px;
+padding:8px 0;
+border-radius: 4px;
+}
+.radio2 input{
+    position: relative;
+    left: 4em;
+}
+.radio3 input{
+    position: relative;
+    left: 2.2em;
+}
+.radio1 input{
+    position: relative;
+    left: 2.7em;
+}
+.span input{
+    padding:8px 6px ;
+    border-radius:5.4px;
+}
+.container2  form > input:nth-child(2),.container2  form > input:nth-child(3){
+min-width:417px;
+padding:8px 6px ;
+border-radius:5.4px;
+}
+.radio4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.radio4 select{
+    width: 422px;
+    padding:8px 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.radio4 h6{
+    position: relative;
+    right: 110px;
+}
+.radio4 input{
+    margin-top: 15px;
+    width: 422px;
+    padding:8px 0;
+}
+.submit input{  
+    border-radius: 5px;
+    font-size: larger;
+    width: 200px;
+    padding:8px 0;
+    margin: 30px 0;
+    background-color: rgb(28, 220, 28);
+    color: white; 
+    cursor: pointer;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-top:20px;
+    font-size: 55px;
+    color: #1877f2;
+}
+.container2{
+    width: 460px;
+    border-radius: 9px;
+    margin-top: 25px;
+    box-shadow: 1px 1px 50px rgb(234, 229, 229);
+}
+.container2 h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.container2 h4{
+    margin-top: 8px;
+}
+hr{
+    margin-top: 20px;
+}
+.radio{
+    display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+.select + label{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+}
+div >h5{
+    font-weight: bolder;
+    width:422px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+div + h5{
+    font-weight: bolder;
+    width:422px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#al{
+   text-align: center;
+}
+#al a{
+    color: #1877f2;
+}

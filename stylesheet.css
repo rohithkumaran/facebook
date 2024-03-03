@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    font-weight:500 ;
+    color: #1877f2;
+}
+h1{
+    text-align: center;
+    font-size:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+top: 20px;
+ color: #1877f2;
+ /* border: 2PX SOLID black; */
+}
+.mainlogo{
+    height:80vh;
+    background-color: rgba(217, 224, 230, 0.71);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.secondlogo{
+    margin-bottom:55px ;
+    position: relative;
+bottom: 45px;
+    background-color: white;
+    border-radius:8px;
+border: 1px solid rgb(220, 216, 216);
+padding:20px;
+box-shadow:1px 1px 20px rgb(168, 168, 168);
+}
+h4{
+    text-align: center;
+}
+a{
+    font-size:12px;
+}
+form input{
+    background-color: #ffffff;
+   display: block;
+   width:300px ;
+   margin-top:15px;
+padding:15px;
+border-radius:5px;
+border: 1px solid rgba(200, 193, 193, 0.768);
+}
+form input:last-child{
+    padding:10px 0;
+    background-color:  #1877f2;
+    font-size:20px;
+    color: white;
+    cursor: pointer;
+}
+input:focus{
+font-weight:700;
+font-size: medium;
+}
+
+.Forgotten{
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.Forgotten :hover a{
+text-decoration-line: underline;
+}
+
+
+@media screen and (max-width:480px){
+  h1{
+    position: relative;
+    top:3;
+  }  
+  .secondlogo{
+    position: relative;
+    bottom:95px;
+  }
+}
